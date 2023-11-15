@@ -50,9 +50,7 @@ Theorem (Kotlarski, 1967): Let $\varepsilon_1, \varepsilon_2$, and $X$ be three 
 My steps are based on Li and Vuong (1998) and Krasnokutskaya (2011).
 
 1. Estimate the joint characteristic function of $(Y_1, Y_2)$ by its empirical counterpart.
-   $$
-    \hat{\Psi}(t_1, t_2) = \frac{1}{n} \sum_{j=1}^n \exp \left(i t_1 \cdot Y_{1j}+i t_2 \cdot Y_{2j}\right)
-   $$
+   $$\hat{\Psi}(t_1, t_2) = \frac{1}{n} \sum_{j=1}^n \exp \left(i t_1 \cdot Y_{1j}+i t_2 \cdot Y_{2j}\right)$$
 
 2. Estimate the derivative of $\hat{\Psi}(t_1, t_2)$ with respect to $t_1$ by
    $$
