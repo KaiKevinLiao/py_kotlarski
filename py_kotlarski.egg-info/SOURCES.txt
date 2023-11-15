@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+py_kotlarski.egg-info/PKG-INFO
+py_kotlarski.egg-info/SOURCES.txt
+py_kotlarski.egg-info/dependency_links.txt
+py_kotlarski.egg-info/top_level.txt
