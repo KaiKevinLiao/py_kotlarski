@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='py_kotlarski',
+    name='pykotlarski',
     version='0.1.0',
     description='A python implementation of Korlarski deconvolution',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Kai Liao',
+    author_email='kl84@rice.edu',
+    url='https://github.com/KaiKevinLiao/py_kotlarski',
     license=license,
     packages=find_packages()
 )

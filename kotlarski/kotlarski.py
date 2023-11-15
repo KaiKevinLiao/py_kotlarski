@@ -1,5 +1,5 @@
 import numpy as np
-import util
+from . import util
 
 
 class Kotlarski():
@@ -13,7 +13,7 @@ class Kotlarski():
         return np.mean(np.exp(1j*t1*self.Y1 + 1j*t2*self.Y2))
 
     def d1ecf(self, t1, t2):
-        return np.mean(1j*Y1 * np.exp(1j*t1*self.Y1 + 1j*t2*self.Y2))
+        return np.mean(1j*self.Y1 * np.exp(1j*t1*self.Y1 + 1j*t2*self.Y2))
 
     def deconvolution(self):
         integrand = lambda u: self.d1ecf(0,u) / self.ecf(0,u)
