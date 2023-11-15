@@ -38,7 +38,7 @@ for x in x_plot:
     est_plot.append(kot.fx(x))
 plt.plot(x_plot, est_plot)
 ```
-![](images/test_plot.png)<!-- -->
+![](docs/test_plot.png)<!-- -->
 
 
 ## Kotlarski's Theorem (1967)
@@ -67,4 +67,4 @@ Theorem (Kotlarski, 1967): Let $\varepsilon_1, \varepsilon_2$, and $X$ be three 
 4. Transform the characteristic functions to density functions, where $T$ is a smoothing parameter.
     $$\hat{f}\left(u\right)=\frac{1}{2 \pi} \int_{-T}^T \exp \left(-i t u\right) \widehat{\Phi}(t) d t$$ -->
 
-Check my steps [here](./docs/steps.pdf)
+Check my steps [here](./docs/steps.png)
