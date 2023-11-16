@@ -1,7 +1,6 @@
 import numpy as np
 from . import util
 
-
 class Kotlarski():
     def __init__(self, Y1, Y2, loc=0, T=2):
         self.Y1 = Y1

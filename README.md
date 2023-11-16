@@ -16,8 +16,8 @@ Y2 = X + e2
 Run Kotlaski to get the density function of $X$, $e_1$, and $e_2$ from joint distributino of $Y_1$ and $Y_2$
 
 ```python
-import kotlarski
-kot = Kotlarski(Y1, Y2)
+import pykotlarski as kt
+kot = kt.Kotlarski(Y1, Y2)
 # density of X evaluated at 0.5
 kot.fx(0.5)
 # density of e1 evaluated at 0.5
